@@ -11,14 +11,40 @@ function Header() {
     return (
         // BEM naming class
         <div className="header">
-            <div className="header-icons">
+            <div className="header__icons">
                 {/* All icons will be placed here */}
-                <HomeIcon />
-                <FlashOnIcon />
-                <LiveTvIcon />
-                <VideoLibraryIcon />
-                <SearchIcon />
-                <PersonOutlineIcon />
+                <div className="header__icon 
+                header__icon--active">
+                    <HomeIcon />
+                    <p>Home</p>
+                </div>
+
+                <div className="header__icon">
+                    <FlashOnIcon />
+                    <p>Trending</p>
+                </div>
+                
+                <div className="header__icon">
+                    <LiveTvIcon />
+                    <p>Verified</p>
+                </div>
+                
+                <div className="header__icon">
+                    <VideoLibraryIcon />
+                    <p>Collections</p>
+                </div>
+                
+                <div className="header__icon">
+                    <SearchIcon />
+                    <p>Search</p>
+                </div>
+
+                <div className="header__icon">
+                    <PersonOutlineIcon />
+                    <p>Account</p>
+                </div>
+                
+                
             </div>
             <img 
             src="https://press.hulu.com/wp-content/uploads/2020/02/hulu-white.png" 
