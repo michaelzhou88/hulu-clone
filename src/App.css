@@ -1,3 +1,5 @@
 .app {
   width: 100vw;
+  /* Go from left to right from black to a suttle green */
+  background-image: linear-gradient(to right, #051421, #042727)
 }

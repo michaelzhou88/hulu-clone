@@ -5,7 +5,6 @@
     padding: 20px;
     align-items: center;
     justify-content: space-between; /* Pushes the two containers apart from each other to seperate the icons from the logo */
-    background-color: black;
     overflow-x: scroll; /* Makes the header container scrollable */
 }
 
