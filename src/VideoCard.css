@@ -1,0 +1,22 @@
+/* videoCard is the parent container */
+.videoCard {
+    color: white;
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    transition: transform 100ms; /* Take 100ms to scale the smooth animation*/
+}
+
+.videoCard:hover {
+    transform: scale(1.09); /* Scale bigger by 9% */
+}
+
+.videoCard > img {
+    height: 300px;
+    object-fit: contain; /* Maintains aspect ratio to prevent stretched image*/
+    width: 500px;
+}
+
+.videoCard > h2 {
+    padding-top: 10px;
+}
