@@ -17,6 +17,14 @@
     width: 500px;
 }
 
+.videoCard__stats {
+    display: none;  /* By default hide the stats*/
+}
+
+.videoCard:hover > .videoCard__stats {
+    display: inline;  /* Display stats upon hover*/
+}
+
 .videoCard > h2 {
     padding-top: 10px;
 }
